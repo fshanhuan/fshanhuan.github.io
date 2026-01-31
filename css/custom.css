@@ -1,0 +1,23 @@
+/* 声明霞鹜文楷 */
+@font-face {
+  font-family: 'MyLXGW';
+  src: url('/fonts/LXGWWenKai.ttf') format('truetype'); /* 确保文件名和后缀对得上 */
+  font-display: swap;
+}
+
+/* 声明 Fira Code */
+@font-face {
+  font-family: 'MyFiraCode';
+  src: url('/fonts/FiraCode.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* 应用到全局 */
+body {
+  font-family: 'MyLXGW', -apple-system, sans-serif !important;
+}
+
+code, pre, .highlight, .code {
+  font-family: 'MyFiraCode', 'MyLXGW', monospace !important;
+  font-variant-ligatures: contextual;
+}
