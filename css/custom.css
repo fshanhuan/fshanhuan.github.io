@@ -52,3 +52,31 @@ code, pre, .highlight, .code {
 .layout>#archive{
     background: rgba(255,255,255,.6);
 }
+#aside-content .card-info .card-info-social-icons i {
+  font-size: 1.3em; /* 调整图标大小 */
+  margin: 0 8px;   /* 调整左右间距 */
+  transition: transform 0.3s; /* 增加动画效果 */
+}
+
+/* 鼠标悬停时轻微放大 */
+#aside-content .card-info .card-info-social-icons i:hover {
+  transform: scale(1.2);
+}
+
+/* --- 给每个图标单独上色 --- */
+
+/* QQ 图标颜色 (虽然图标本身是黑白，但可以调细微颜色) */
+#aside-content .card-info .card-info-social-icons .fa-qq {
+  color: #1296db;
+}
+
+
+/* Bilibili 图标颜色 (少女粉) */
+#aside-content .card-info .card-info-social-icons .fa-bilibili {
+  color: #fb7299;
+}
+
+/* GitHub 图标颜色 (深色/黑色) */
+#aside-content .card-info .card-info-social-icons .fa-github {
+  color: #24292e;
+}
